@@ -3,10 +3,7 @@ import {StyleSheet} from 'react-native';
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    flexDirection: 'row',
-    justifyContent: 'space-between',
     width: '100%',
-    height: 100,
     backgroundColor: '#44424C',
     padding: 10,
   },
@@ -22,6 +19,18 @@ const styles = StyleSheet.create({
     height: 40,
     width: 40,
     marginRight: 10,
+  },
+  imageBig: {
+    height: 200,
+    width: 400,
+    borderRadius: 4,
+    marginBottom: 20,
+  },
+  txtSobre: {
+    fontSize: 20,
+    letterSpacing: 2,
+    textAlign: 'justify',
+    color: '#fff',
   },
 });
 
